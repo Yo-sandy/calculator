@@ -36,7 +36,7 @@ function getValueFromElement(id) {
 
 
 
-// my operation button
+// my operation button (for add, sub, multi, divide)
 getOperator("#btn-sum");
 getOperator("#btn-sub");
 getOperator("#btn-multi");
