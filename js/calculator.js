@@ -103,5 +103,3 @@ function multi(x, y) {
 function divide(x, y) {
     return x / y;
 }
-
-
