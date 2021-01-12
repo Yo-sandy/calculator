@@ -1,0 +1,13 @@
+.container {
+    height: 100vh;
+}
+
+.box1{
+    height: 16.66vh;
+}
+
+.text-size {
+    font-size:100px;
+    line-height: 16.66vh;
+    text-align: right;
+}
