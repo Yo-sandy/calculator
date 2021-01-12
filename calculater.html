@@ -1,50 +1,93 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> calculator.example</title>
-    <link rel="stylesheet" href="css.folder/bootstrap.css">
-    <link rel="stylesheet" href="css.folder/calculater.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/calculater.css">
 </head>
-<body>
-<div class="container">
-<div class="row box1">
-    <textarea id="text-area" class="text-size" readonly="" style="resize: none">0</textarea>
-</div>
-    <div class="row" style="height: 16.66vh">
-        <button id="btn-c" type="button" class="col-3 text-center btn-outline-secondary"><h2>C</h2></button>
-        <button id="btn-ce" type="button" class="col-3 text-center btn-outline-danger"><h2>CE</h2></button>
-        <button id="btn-mod" type="button" class="col-3 text-center btn-outline-dark"><h2>%</h2></button>
-        <button id="btn-divd" type="button" class="col-3 text-center btn-outline-info"><h2>/</h2></button>
-    </div>
-    <div class="row" style="height: 16.66vh">
-        <button id="btn-7" type="button" class="col-3 text-center btn-secondary"><h2>7</h2></button>
-        <button id="btn-8" type="button" class="col-3 text-center btn-secondary"><h2>8</h2></button>
-        <button id="btn-9" type="button" class="col-3 text-center btn-secondary"><h2>9</h2></button>
-        <button id="btn-multi" type="button" class="col-3 text-center btn-secondary"><h2>*</h2></button>
-    </div>
-    <div class="row" style="height: 16.66vh">
-        <button id="btn-4" type="button" class="col-3 text-center btn-secondary"><h2>4</h2></button>
-        <button id="btn-5" type="button" class="col-3 text-center btn-secondary"><h2>5</h2></button>
-        <button id="btn-6" type="button" class="col-3 text-center btn-secondary"><h2>6</h2></button>
-        <button id="btn-sub" type="button" class="col-3 text-center btn-secondary"><h2>-</h2></button>
-    </div>
-    <div class="row" style="height: 16.66vh">
-        <button id="btn-1" type="button" class="col-3 text-center btn-secondary"><h2>1</h2></button>
-        <button id="btn-2" type="button" class="col-3 text-center btn-secondary"><h2>2</h2></button>
-        <button id="btn-3" type="button" class="col-3 text-center btn-secondary"><h2>3</h2></button>
-        <button id="btn-sum" type="button" class="col-3 text-center btn-secondary"><h2>+</h2></button>
-    </div>
-    <div class="row" style="height: 16.66vh">
-        <button id="btn-0" type="button" class="col-3 text-center btn-secondary"><h2>0</h2></button>
-        <button id="btn-dot" type="button" class="col-3 text-center btn-secondary"><h2>.</h2></button>
-        <button id="btn-equal" type="button" class="col-6 text-center btn-secondary"><h2>=</h2></button>
-    </div>
-</div>
-<script src="js.folder/bootstrap.js"></script>
 
+<body>
+    <div class="container">
+        <div class="row box1">
+            <textarea id="text-area" class="text-size" readonly="" style="resize: none">0</textarea>
+        </div>
+        <div class="row" style="height: 16.66vh">
+            <button id="btn-c" type="button" class="col-3 text-center btn-outline-secondary">
+                C
+            </button>
+            <button id="btn-ce" type="button" class="col-3 text-center btn-outline-danger">
+                CE
+            </button>
+            <button id="btn-mod" type="button" class="col-3 text-center btn-outline-dark">
+                %
+            </button>
+            <button id="btn-divd" type="button" class="col-3 text-center btn-outline-info">
+                /
+            </button>
+        </div>
+        <div class="row" style="height: 16.66vh">
+            <button id="btn-7" type="button" class="col-3 text-center btn-secondary">
+                7
+            </button>
+            <button id="btn-8" type="button" class="col-3 text-center btn-secondary">
+                8
+            </button>
+            <button id="btn-9" type="button" class="col-3 text-center btn-secondary">
+                9
+            </button>
+            <button id="btn-multi" type="button" class="col-3 text-center btn-secondary">
+                *
+            </button>
+        </div>
+        <div class="row" style="height: 16.66vh">
+            <button id="btn-4" type="button" class="col-3 text-center btn-secondary">
+                4
+            </button>
+            <button id="btn-5" type="button" class="col-3 text-center btn-secondary">
+                5
+            </button>
+            <button id="btn-6" type="button" class="col-3 text-center btn-secondary">
+                6
+            </button>
+            <button id="btn-sub" type="button" class="col-3 text-center btn-secondary">
+                -
+            </button>
+        </div>
+        <div class="row" style="height: 16.66vh">
+            <button id="btn-1" type="button" class="col-3 text-center btn-secondary">
+                1
+            </button>
+            <button id="btn-2" type="button" class="col-3 text-center btn-secondary">
+                2
+            </button>
+            <button id="btn-3" type="button" class="col-3 text-center btn-secondary">
+                3
+            </button>
+            <button id="btn-sum" type="button" class="col-3 text-center btn-secondary">
+                +
+            </button>
+        </div>
+        <div class="row" style="height: 16.66vh">
+            <button id="btn-0" type="button" class="col-3 text-center btn-secondary">
+                0
+            </button>
+            <button id="btn-dot" type="button" class="col-3 text-center btn-secondary">
+                .
+            </button>
+            <button id="btn-equal" type="button" class="col-6 text-center btn-secondary">
+                =
+            </button>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/calculator.js"></script>
 </body>
+
 </html>
